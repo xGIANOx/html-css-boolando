@@ -66,3 +66,60 @@ body{
 }
 
 /* /header */
+
+/* main */
+
+.col{
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.card{
+    flex-wrap: wrap;
+    width: calc(100% / 3 - 1rem);
+    margin-top: 5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.product{
+    width: 100%;
+}
+.hover_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: calc(100% / 3 - 1rem);
+    margin-top: 5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.image:hover .hover_img{
+    display: inline;
+}
+
+.discount{
+    position: absolute;
+    bottom: 100px;
+    left: 25px;
+    padding: 0.5rem 0.75rem;
+    background-color: red;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: white;
+}
+
+.sustainability{
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    padding: 0.5rem 0.75rem;
+    background-color: green;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* main */
