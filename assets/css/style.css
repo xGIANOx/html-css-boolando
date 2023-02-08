@@ -26,6 +26,10 @@ body{
     margin: auto;
 }
 
+.m-bottom{
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
 /* /utilities */
 
 /* header */
@@ -56,7 +60,7 @@ body{
 }
 
 .logo{
-    margin-left: 10rem;
+    margin-left: 15rem;
 }
 
 .icons{
@@ -122,4 +126,36 @@ body{
     color: white;
 }
 
+.price{
+    color: red;
+}
+
+.old_price{
+    text-decoration: line-through;
+    color: black;
+}
+
 /* main */
+
+/* footer */
+
+#app-footer{
+    background-color: #1a1a1a;
+    margin-top: 5rem;
+    color: white;
+}
+
+.ft_info{
+    flex-direction: column;
+    
+}
+
+.container.footer_info{
+    justify-content: space-between;
+}
+
+.iconfooter{
+    flex-wrap: wrap;
+    color: white;
+    gap: 0.5rem;
+}
