@@ -90,35 +90,42 @@ body{
     width: 100%;
 }
 .hover_img{
-    position: absolute;
+    max-width: 100%;
+    position: relative;
     top: 0;
     left: 0;
     display: none;
-    width: calc(100% / 3 - 1rem);
-    margin-top: 5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    
 }
 
 .image:hover .hover_img{
-    display: inline;
+    display: inline-block;
+}
+
+.image:hover .product{
+    display: none;
+}
+
+.badge{
+    display: flex;
+    
 }
 
 .discount{
-    position: absolute;
+    width: 15%;
     bottom: 100px;
-    left: 25px;
     padding: 0.5rem 0.75rem;
     background-color: red;
     font-size: 0.75rem;
     font-weight: bold;
     color: white;
+    margin-right: 0.25rem;
+    position: relative;
 }
 
 .sustainability{
-    position: absolute;
+    position: relative;
     bottom: 100px;
-    left: 80px;
     padding: 0.5rem 0.75rem;
     background-color: green;
     font-size: 0.75rem;
@@ -154,6 +161,9 @@ body{
     justify-content: space-between;
 }
 
+.find_us{
+    flex-direction: column;
+}
 .iconfooter{
     flex-wrap: wrap;
     color: white;
