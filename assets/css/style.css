@@ -1,5 +1,68 @@
+/* region general */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* #endregion general */
+
+
+/* utilities */
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    max-width: 1440;
+    margin: auto;
+}
+
+/* /utilities */
+
+/* header */
+
+#app-header{
+    position: sticky;
+    width: 100%;
+    max-width: 1440px;
+    background-color: #ff6900;
+}
+
+.nav_bar{
+    padding: 0.5rem 0;
+    justify-content: space-around;
+}
+
+.menu{
+    flex-direction: row;
+    list-style: none;
+    gap: 0.5rem;
+    align-items: center;
+    width: calc(100% / 3);
+}
+
+.menu_item{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    margin-left: 10rem;
+}
+
+.icons{
+    color: white;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+/* /header */
